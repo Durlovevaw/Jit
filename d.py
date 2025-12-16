@@ -11,7 +11,7 @@ try:
 except ModuleNotFoundError: 
     pass
 print('\n\033[1;37m✅ Join Facebook')
-os.system('xdg-open https://www.facebook.com/DurloveAcharya1TeraH8tBaap/')
+os.system('xdg-open https://www.facebook.com/Durlove.Acharya.1.Tera.Hi8.Baap')
 
 from os import path
 import os,base64,zlib,pip,urllib
@@ -238,9 +238,9 @@ device = {
 logo=("""\033[1;32m
 
 d8888b. d888888b d8888b. 
-88  `8D   `88'   88  `8D ║ \033[1;31m   🟥🟥🟥\033[1;32m⬜⬜⬜
-88oobY'    88    88oodD' ║    \033[1;31m🟥🟥🟥\033[1;32m⬜⬜⬜
-88`8b      88    88~~~   ║    \033[1;31m🟥🟥🟥\033[1;32m⬜⬜⬜
+88  `8D   `88'   88  `8D ║ \033[1;31m   🟥🕺\033[1;32m⬜💃
+88oobY'    88    88oodD' ║    \033[1;31m🟥🕺\033[1;32m⬜💃
+88`8b      88    88~~~   ║    \033[1;31m🟥🕺\033[1;32m⬜💃
 88 `88.   .88.   88      ║
 88   YD Y888888P 88     \033[1;31mN\033[1;35mP\033[1;33mL\033[1;32m
 \033[1;32m+==================================================+
